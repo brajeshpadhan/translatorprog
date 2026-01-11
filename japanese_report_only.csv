@@ -1,0 +1,9 @@
+file_path,line_number,original_text
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,6,* このClassは、between different layers of the application
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,33,* UsernameとEmail addressを指定して
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,46,* Usernameを取得します。
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,55,* Usernameを設定します。
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,57,* @param username 設定するUsername
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,64,* Email addressを取得します。
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,73,* Email addressを設定します。
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,75,* @param email 設定するEmail address

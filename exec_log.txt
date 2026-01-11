@@ -1,0 +1,162 @@
+PS E:\tranalatorprog\translatorprog> python deepl_translate.py
+Backup created at 'backup_project'
+Report generated: japanese_report.csv
+Total Japanese snippets found: 43
+Error translating 'ブラジェシュ': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.  
+Translated 'ブラジェシュ' in E:\spring-boot-project\demo\bin\main\application.properties
+Error translating '同じ': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated '同じ' in E:\spring-boot-project\demo\bin\main\application.properties
+Error translating '無効な入力が提供されました': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated '無効な入力が提供されました' in E:\spring-boot-project\demo\src\main\java\com\example\demo\common\ErrorCode.java
+Error translating 'ユーザーが見つかりません': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'ユーザーが見つかりません' in E:\spring-boot-project\demo\src\main\java\com\example\demo\common\ErrorCode.java
+Error translating 'アクセス拒否': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.  
+Translated 'アクセス拒否' in E:\spring-boot-project\demo\src\main\java\com\example\demo\common\ErrorCode.java
+Error translating '内部サーバーエラー': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated '内部サーバーエラー' in E:\spring-boot-project\demo\src\main\java\com\example\demo\common\ErrorCode.java
+Error translating 'ユーザー情報を提供する': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'ユーザー情報を提供する' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'コントローラクラス': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'コントローラクラス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'クライアントからのリクエストを受け取り': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'クライアントからのリクエストを受け取り' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'ユーザー情報を返却する': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'ユーザー情報を返却する' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'を提供します': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.  
+Translated 'を提供します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating '指定されたユーザー名に基づいてユーザー情報を取得します': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated '指定されたユーザー名に基づいてユーザー情報を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'パスパラメータとして受け取ったユーザー名をもとに': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'パスパラメータとして受け取ったユーザー名をもとに' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'を生成してレスポンスとして返却します': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'を生成してレスポンスとして返却します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'パス変数として指定されたユーザー名': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'パス変数として指定されたユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'ユーザー情報を含む': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'ユーザー情報を含む' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Error translating 'ユーザーを表すデータ転送オブジェクト': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'ユーザーを表すデータ転送オブジェクト' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'クラス': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.        
+Translated 'クラス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'このクラスは': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.  
+Translated 'このクラスは' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'アプリケーションの異なるレイヤー間で': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'アプリケーションの異なるレイヤー間で' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ユーザー情報': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.  
+Translated 'ユーザー情報' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ユーザー名': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.    
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'メールアドレス': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'を受け渡すために使用されます': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'を受け渡すために使用されます' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ユーザー名': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.    
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'メールアドレス': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'デフォルトコンストラクタ': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'デフォルトコンストラクタ' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating '空の': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated '空の' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'インスタンスを生成します': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'インスタンスを生成します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ユーザー名とメールアドレスを指定して': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'ユーザー名とメールアドレスを指定して' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'を生成するコンストラクタ': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'を生成するコンストラクタ' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ユーザー名': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.    
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'メールアドレス': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ユーザー名を取得します': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'ユーザー名を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ユーザー名': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.    
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ユーザー名を設定します': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'ユーザー名を設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating '設定するユーザー名': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated '設定するユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'メールアドレスを取得します': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'メールアドレスを取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'メールアドレス': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'メールアドレスを設定します': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated 'メールアドレスを設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating '設定するメールアドレス': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated '設定するメールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Error translating 'ブラジェシュ': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.  
+Translated 'ブラジェシュ' in E:\spring-boot-project\demo\src\main\resources\application.properties       
+Error translating '同じ': target_lang="EN" is deprecated, please use "EN-GB" or "EN-US"instead.
+Translated '同じ' in E:\spring-boot-project\demo\src\main\resources\application.properties
+All Japanese text translated successfully!
+PS E:\tranalatorprog\translatorprog> ^C
+PS E:\tranalatorprog\translatorprog> python deepl_translate.py
+Report generated: japanese_report.csv
+Total Japanese snippets found: 43
+Translated 'ブラジェシュ' in E:\spring-boot-project\demo\bin\main\application.properties
+Translated '同じ' in E:\spring-boot-project\demo\bin\main\application.properties
+Translated '無効な入力が提供されました' in E:\spring-boot-project\demo\src\main\java\com\example\demo\common\ErrorCode.java
+Translated 'ユーザーが見つかりません' in E:\spring-boot-project\demo\src\main\java\com\example\demo\common\ErrorCode.java
+Translated 'アクセス拒否' in E:\spring-boot-project\demo\src\main\java\com\example\demo\common\ErrorCode.java
+Translated '内部サーバーエラー' in E:\spring-boot-project\demo\src\main\java\com\example\demo\common\ErrorCode.java
+Translated 'ユーザー情報を提供する' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'コントローラクラス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'クライアントからのリクエストを受け取り' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'ユーザー情報を返却する' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'を提供します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated '指定されたユーザー名に基づいてユーザー情報を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'パスパラメータとして受け取ったユーザー名をもとに' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'を生成してレスポンスとして返却します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'パス変数として指定されたユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'ユーザー情報を含む' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java
+Translated 'ユーザーを表すデータ転送オブジェクト' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'クラス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'このクラスは' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'アプリケーションの異なるレイヤー間で' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー情報' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'を受け渡すために使用されます' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'デフォルトコンストラクタ' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated '空の' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'インスタンスを生成します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名とメールアドレスを指定して' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'を生成するコンストラクタ' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+UserDto.java
+Translated 'ユーザー名を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaUserDto.java
+UserDto.java
+Translated 'ユーザー名を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+UserDto.java
+Translated 'ユーザー名を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名を設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ユーザー名を設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated '設定するユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\Translated '設定するユーザー名' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+dto\UserDto.java
+Translated 'メールアドレスを取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\traTranslated 'メールアドレスを取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+nslaton\dto\UserDto.java
+Translated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'メールアドレスを設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\traTranslated 'メールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'メールアドレスを設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\traUserDto.java
+Translated 'メールアドレスを設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\traTranslated 'メールアドレスを設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated '設定するメールアドレス' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'ブラジェシュ' in E:\spring-boot-project\demo\src\main\resources\application.properties       
+Translated '同じ' in E:\spring-boot-project\demo\src\main\resources\application.properties
+All Japanese text translated successfully!
+PS E:\tranalatorprog\translatorprog> python .\translatorreport.py
+Report generated: japanese_report_only.csv
+Total lines with Japanese text found: 8
+PS E:\tranalatorprog\translatorprog> python deepl_translate.py   
+Translated 'を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'を設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated '設定する' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'を取得します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated 'を設定します' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+Translated '設定する' in E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java
+All Japanese text translated successfully!
