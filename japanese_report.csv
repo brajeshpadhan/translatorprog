@@ -1,11 +1,34 @@
-file_path,line_number,japanese_text
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,6,この
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,6,は
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,33,と
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,33,を指定して
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,46,を取得します
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,55,を設定します
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,57,設定する
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,64,を取得します
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,73,を設定します
-E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,75,設定する
+file,line_number,japanese_text,english_text
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,10,ユーザー情報を提供する,Provide user information
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,10,コントローラクラス。,Controller class.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,12,クライアントからのリクエストを受け取り、,"Receives requests from clients,"
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,13,ユーザー情報を返却する,Return user information
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,13,を提供します。,to provide the following services.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,20,指定されたユーザー名に基づいてユーザー情報を取得します。,Retrieves user information based on the specified user name.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,22,パスパラメータとして受け取ったユーザー名をもとに、,"Based on the user name received as a path parameter,"
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,23,を生成してレスポンスとして返却します。,and returns it as a response.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,26,パス変数として指定されたユーザー名,User name specified as a path variable
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\controller\UserController.java,27,ユーザー情報を含む,Contains user information
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,4,ユーザーを表すデータ転送オブジェクト,Data transfer object representing the user
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,4,クラス。,Class.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,6,このクラスは、アプリケーションの異なるレイヤー間で,This class is used to create a
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,7,ユーザー情報,User Information
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,7,ユーザー名、メールアドレス,"Username, e-mail address"
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,7,を受け渡すために使用されます。,is used to pass on the
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,13,ユーザー名。,User Name.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,18,メールアドレス。,Email address.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,23,デフォルトコンストラクタ。,Default constructor.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,25,空の,empty
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,25,インスタンスを生成します。,Create an instance.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,33,ユーザー名とメールアドレスを指定して,Specify your username and email address.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,34,を生成するコンストラクタ。,Constructor that creates a
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,36,ユーザー名,username
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,37,メールアドレス,Email Address
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,46,ユーザー名を取得します。,Obtains a user name.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,48,ユーザー名,username
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,55,ユーザー名を設定します。,Set the user name.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,57,設定するユーザー名,User name to be set
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,64,メールアドレスを取得します。,Obtain an email address.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,66,メールアドレス,Email Address
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,73,メールアドレスを設定します。,Set your email address.
+E:\spring-boot-project\demo\src\main\java\com\example\demo\translaton\dto\UserDto.java,75,設定するメールアドレス,Email address to be set

@@ -7,10 +7,10 @@ import deepl
 # =============================
 # CONFIGURATION
 # =============================
-API_KEY = "apikeyhere" # Replace with your DeepL API key
+API_KEY = "apikeyhere"  #
 PROJECT_PATH = r"E:\spring-boot-project\demo"
 BACKUP_FOLDER = "backup_project"
-REPORT_CSV = "japanese_report.csv"
+REPORT_CSV = "japanese_report4.csv"
 
 FILE_EXTENSIONS = (".java", ".groovy", ".ts", ".dart", ".properties", ".yml", ".yaml")
 IGNORE_DIRS = {".git", "build", "dist", "target", "node_modules", ".dart_tool", ".angular"}
@@ -23,12 +23,13 @@ TARGET_LANG = "EN-US"
 translator = deepl.Translator(API_KEY)
 
 # =============================
-# REGEX
+# REGEX DEFINITIONS
 # =============================
-# Any Japanese character
 JAPANESE_REGEX = re.compile(r'[\u3040-\u30ff\u4e00-\u9faf]')
-
-# YAML / properties value
+STRING_REGEX = re.compile(r'"([^"\\]*(?:\\.[^"\\]*)*)"')
+LINE_COMMENT_REGEX = re.compile(r'//(.*)')
+BLOCK_COMMENT_REGEX = re.compile(r'/\*(?!\*)([\s\S]*?)\*/')
+JAVADOC_REGEX = re.compile(r'/\*\*([\s\S]*?)\*/')
 YML_VALUE_REGEX = re.compile(r'(:\s*)(["\']?)(.+?)(["\']?)$')
 
 # =============================
@@ -64,25 +65,70 @@ for root, dirs, files in os.walk(PROJECT_PATH):
 
         path = os.path.join(root, file)
         with open(path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
+            content = f.read()
+        lines = content.splitlines()
 
+        # --- JavaDoc ---
+        for match in JAVADOC_REGEX.finditer(content):
+            start_line = content[:match.start()].count("\n") + 1
+            block = match.group(1)
+            for offset, line in enumerate(block.splitlines()):
+                text = line.strip(" *")
+                if JAPANESE_REGEX.search(text):
+                    if text not in translation_cache:
+                        translation_cache[text] = translate_text(text)
+                    report_rows.append({
+                        "file": path,
+                        "line_number": start_line + offset,
+                        "japanese_text": text,
+                        "english_text": translation_cache[text]
+                    })
+
+        # --- Block comments ---
+        for match in BLOCK_COMMENT_REGEX.finditer(content):
+            start_line = content[:match.start()].count("\n") + 1
+            block = match.group(1)
+            for offset, line in enumerate(block.splitlines()):
+                text = line.strip(" *")
+                if JAPANESE_REGEX.search(text):
+                    if text not in translation_cache:
+                        translation_cache[text] = translate_text(text)
+                    report_rows.append({
+                        "file": path,
+                        "line_number": start_line + offset,
+                        "japanese_text": text,
+                        "english_text": translation_cache[text]
+                    })
+
+        # --- Line by line scan ---
         for line_no, line in enumerate(lines, start=1):
-            # --- Detect all Japanese substrings in the line ---
-            jp_texts = re.findall(r'[\u3040-\u30ff\u4e00-\u9faf][\u3040-\u30ff\u4e00-\u9faf。、]*', line)
-            for jp_text in jp_texts:
-                jp_text = jp_text.strip()
-                if not jp_text:
-                    continue
-                if jp_text not in translation_cache:
-                    translation_cache[jp_text] = translate_text(jp_text)
-                report_rows.append({
-                    "file": path,
-                    "line_number": line_no,
-                    "japanese_text": jp_text,
-                    "english_text": translation_cache[jp_text]
-                })
+            # Line comments
+            m = LINE_COMMENT_REGEX.search(line)
+            if m:
+                text = m.group(1).strip()
+                if JAPANESE_REGEX.search(text):
+                    if text not in translation_cache:
+                        translation_cache[text] = translate_text(text)
+                    report_rows.append({
+                        "file": path,
+                        "line_number": line_no,
+                        "japanese_text": text,
+                        "english_text": translation_cache[text]
+                    })
 
-            # --- YAML / properties special handling ---
+            # String literals (includes annotations, DTOs, Controller strings)
+            for match in STRING_REGEX.findall(line):
+                if JAPANESE_REGEX.search(match):
+                    if match not in translation_cache:
+                        translation_cache[match] = translate_text(match)
+                    report_rows.append({
+                        "file": path,
+                        "line_number": line_no,
+                        "japanese_text": match,
+                        "english_text": translation_cache[match]
+                    })
+
+            # YAML / properties
             if file.endswith((".yml", ".yaml")):
                 m = YML_VALUE_REGEX.search(line)
                 if m:
@@ -130,7 +176,7 @@ for row in report_rows:
     with open(row["file"], "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Replace Japanese text with English
+    # Replace Japanese only
     content = content.replace(row["japanese_text"], row["english_text"])
 
     with open(row["file"], "w", encoding="utf-8") as f:
