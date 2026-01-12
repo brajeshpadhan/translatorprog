@@ -159,5 +159,28 @@ else:
 
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
+    #=================================
+    # logic with line number either above or below need to use
+    #=================================
+  for row in report_rows:
+    file_path = row["file"]
+    line_number = row["line_number"]  # 1-based
+    japanese_text = row["japanese_text"]
+    english_text = row["english_text"]
+
+    # Read file lines
+    with open(file_path, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    # Replace Japanese text ONLY in the specific line
+    idx = line_number - 1  # Convert to 0-based index
+    if idx < len(lines) and japanese_text in lines[idx]:
+        lines[idx] = lines[idx].replace(japanese_text, english_text)
+        # Optional: log what changed
+        print(f"Line {line_number} in {file_path} translated.")
+
+    # Write lines back to file
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.writelines(lines)
 
     print("All files updated with English translations.")
