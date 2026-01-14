@@ -1,0 +1,40 @@
+file,line_number,japanese_text,english_text
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,4,サンプルフラッターアプリ,Sample flutter application
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,6,開発,development
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,7,サンプル株式会社,Sample Corporation
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,8,サポート@example.com,サポート@example.com
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,9,有効,validity
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,10,無効,invalid
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,12,日本語,Japanese (language)
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,13,アジア/東京,Asia/Tokyo
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,16,ダーク,dark
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,18,有効,validity
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,20,無効,invalid
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,21,日本円,Japanese Yen
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,22,yyyy年MM月dd日,MM/dd/yyyy year
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,23,月曜日,Monday
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,24,無効,invalid
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\app_config.yaml,25,バージョン1,Version 1
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\pubspec.yaml,2,サンプル用のFlutterアプリケーション,Flutter application for sample
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\app.dart,4,/ アプリケーションのルートウィジェット,/ application root widget
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\app.dart,5,/ テーマや初期画面などの共通設定を定義する,/ Define common settings such as theme and initial screen
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\app.dart,12,デバッグバナーを非表示にする,Hide debug banner
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\app.dart,15,アプリケーションのタイトル,Application Title
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\app.dart,18,全体のテーマ設定,Overall theme setting
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\app.dart,23,アプリ起動時に表示される最初の画面,First screen displayed when the application is launched
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,3,/ カウンターウィジェット,/ Counter Widget
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,4,/ 数値が変化するため StatefulWidget を使用する,/ Use StatefulWidget for changing values
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,12,/ CounterWidget の状態管理クラス,/ CounterWidget state management class
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,14,カウンターの現在値,Current value of counter
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,17,/ カウンターを1増加させる処理,/ Process to increase counter by 1
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,20,状態を更新すると画面が再描画される,Screen redraws when status is updated.
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,28,ウィジェットを縦方向中央に配置,Centered widget vertically
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,31,説明用テキスト,explanatory text
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,39,カウンターの数値を表示,Display counter values
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\counter_widget.dart,50,カウンターを増加させるボタン,Button to increase counter
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\home_screen.dart,4,/ ホーム画面ウィジェット,/ Home Screen Widgets
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\home_screen.dart,5,/ アプリのメインUIを表示する,/ Display the main UI of the application
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\home_screen.dart,12,画面上部のアプリバー,App bar at the top of the screen
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\home_screen.dart,18,画面中央にカウンターウィジェットを表示,Display counter widget in the center of the screen
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\main.dart,4,/ アプリケーションの開始地点,/ Application starting point
+C:\Users\brajesh.kumar.padhan\test_program\flutter_app-feature-translation1\lib\main.dart,6,ルートウィジェットを起動する,Activate the root widget
